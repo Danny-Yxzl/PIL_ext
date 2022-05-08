@@ -1,3 +1,3 @@
 name = "PIL_ext"
 
-from PIL_ext import *
+from .PIL_ext import *

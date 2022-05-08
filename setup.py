@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='musicapi',
+    name='PIL_ext',
     version='0.1',
     description='Some extend methods for Pillow(PIL)',
     url="https://github.com/Danny-Yxzl/PIL_ext",
