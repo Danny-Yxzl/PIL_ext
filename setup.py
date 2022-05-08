@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='musicapi',
@@ -19,7 +19,7 @@ setup(
     ],
     keywords="image PIL",
     install_requires=["Pillow"],
-    packages=["PIL_ext"],
+    packages=find_packages(),
     project_urls={
         "Bug Reports": "https://github.com/Danny-Yxzl/PIL_ext/issues",
         "Say Thanks!": "https://www.yixiangzhilv.com/",
